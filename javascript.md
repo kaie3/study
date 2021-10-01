@@ -8,6 +8,7 @@
 - node.jsはCommonJS構文でモジュールをロードしようとします.ESモジュールを使うときは以下を追加する
 
 ```json:package.json
+// package.json
 "type": "module"
 ```
 
@@ -47,10 +48,12 @@ yarn init #初期設定
 - バージョン3にするとデフォルトでZero-Installsが有効なことに注意。賛否がある模様。以下の設定を追加でnode_modulesディレクトリ管理になる
 
 ```yml:.yarnrc.yml
+# .yarnrc.yml
 nodeLinker: node-modules
 ```
 
 ```.gitignore
+# .gitignore
 node_modules
 ```
 
