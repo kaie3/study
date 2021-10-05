@@ -36,7 +36,7 @@ helloWorldModule();
 
 ## eslint&prettier
 
-[完全版 eslint&prettier ~vscode~](https://zenn.dev/sawao/articles/6ad32596a82174)
+[完全版 eslint&prettier&vscode](https://zenn.dev/sawao/articles/6ad32596a82174)
 
 - Prettier.コードフォーマッター(ソースコードを整形してくれるツール)のこと
 - eslint.リンター.問題点を指摘してくれる静的解析ツール
@@ -115,6 +115,8 @@ touch .prettierrc
 
 ## yarn
 
+[yarn の使い方,ゼロから始める JavaScript 生活](https://qiita.com/takahashim/items/7838334d1451fb0a9811)
+
 - パッケージは yarn で管理する。以下初期設定。すでに古い yarn が入っている前提。
 
 ```shell script
@@ -137,4 +139,3 @@ nodeLinker: node-modules
 node_modules
 ```
 
-[yarn の使い方,ゼロから始める JavaScript 生活](https://qiita.com/takahashim/items/7838334d1451fb0a9811)
