@@ -9,3 +9,5 @@ Nmap を使用する
 sudo apt install nmap #install
 sudo nmap -sP 192.168.1.0/24
 ```
+
+[プロフェッショナルIPv6](https://professionalipv6.booth.pm/items/913273)
