@@ -2,6 +2,7 @@
 
 - [JavaScript Primer](https://jsprimer.net/)
 - [TypeScript Deep Dive](https://typescript-jp.gitbook.io/deep-dive/)
+- [Native ESM + TypeScript 拡張子問題: 歯にものが挟まったようなスッキリしない書き流し](https://zenn.dev/qnighy/articles/19603f11d5f264),これが詳しい
 - ES6 の仕様は import 文.require の仕様は CommonJS
 - import 文は,Chrome などでは動くが IE など ES6 に対応していないブラウザでは動かない
 - require 文は,Nodejs（サーバサイド）では動くがブラウザ側実行の js では動かない
@@ -49,13 +50,13 @@ helloWorldModule();
 
 1. vscode のプラグインである eslint,prettier インストール
 
-```shell
+```node.js
 yarn add eslint prettier eslint-config-prettier
 ```
 
 1. eslint の設定
 
-```cmd
+```script
 touch .eslintrc.json
 ```
 
@@ -76,7 +77,7 @@ touch .eslintrc.json
 
 1. prettier の設置
 
-```cmd
+```script
 touch .prettierrc
 ```
 
