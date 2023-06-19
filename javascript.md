@@ -118,28 +118,8 @@ touch .prettierrc
 }
 ```
 
-## yarn
-
-[yarn の使い方,ゼロから始める JavaScript 生活](https://qiita.com/takahashim/items/7838334d1451fb0a9811)
-
-- パッケージは yarn で管理する。以下初期設定。すでに古い yarn が入っている前提。
-
-```shell script
-cd ~/path/to/project # プロジェクトフォルダに移動します。
-yarn set version berry #「Berry」は、2以降のすべてのバージョンのYarn（2.x、3.xなど）のコードネームです。これは、リポジトリの名前でもあります。
-yarn set version latest # Yarnを最新バージョンに更新する
-# .yarnrc.ymlに追記する
-yarn init #初期設定
-```
-
-- バージョン 3 にするとデフォルトで Zero-Installs が有効なことに注意。賛否がある模様。以下の設定を追加で node_modules ディレクトリ管理になる
-
-```yml:.yarnrc.yml
-# .yarnrc.yml
-nodeLinker: node-modules
-```
-
-```:.gitignore
-# .gitignore
-node_modules
-```
+Client Side Rendering(CSR)
+Server Side Rendering(SSR)
+Static Site Generation(SSG)
+Incremental Static Regeneration(ISR)
+Server Side Component(SSC)
