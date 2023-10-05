@@ -21,3 +21,8 @@ print(s)
 
 - python自体は0始まり,numpyは1始まり
 - [NumPyの主要なデータ型dtype一覧](https://note.nkmk.me/python-numpy-dtype-astype/)
+
+## memo
+
+座標系
+![座標系](img\座標系.png)

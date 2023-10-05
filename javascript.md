@@ -4,11 +4,12 @@
 - [TypeScript Deep Dive](https://typescript-jp.gitbook.io/deep-dive/)
 - [Native ESM + TypeScript 拡張子問題: 歯にものが挟まったようなスッキリしない書き流し](https://zenn.dev/qnighy/articles/19603f11d5f264),これが詳しい
 - ES6 の仕様は import 文.require の仕様は CommonJS
-- import 文は,Chrome などでは動くが IE など ES6 に対応していないブラウザでは動かない
-- require 文は,Nodejs（サーバサイド）では動くがブラウザ側実行の js では動かない
+  - import 文はクライアント(Chrome) などでは動くが IE など ES6 に対応していないブラウザでは動かない
+  - require 文はNodejs（サーバサイド）では動くがブラウザ側実行の js では動かない
 - [拡張子が.cjs のファイルは CJS(CommonJS)、.mjs(ECMAScript)のファイルは ESM として扱われる](https://numb86-tech.hatenablog.com/entry/2020/08/07/091142)
 - 混在させたいならバンドルツールを使う
-  - [調査]バックエンドでは必ずしもひとまとめにする必要はないから混在する場合はどうしているのか?
+  - *調査* バックエンドでは必ずしもひとまとめにする必要はないから混在する場合はどうしているのか?
+    - *解* 対象のファイルを.mjsにリネームする。export defaultに書き直してimportする
 - node.js は CommonJS 構文でモジュールをロードしようとします.ES モジュールを使うときは以下を追加する
   - [npm v8.0.0](https://github.com/npm/cli/releases/tag/v8.0.0)以降ではrequire('npm')のサポートを終了しました。
 - [node-fetch は ESM のみのモジュールで、require ではインポートできません](https://github.com/node-fetch/node-fetch#installation)

@@ -1,9 +1,10 @@
 # OS関係
 
-[今どきのLinux事情](https://speakerdeck.com/tokida/jin-dokifalselinuxshi-qing)
+>[今どきのLinux事情](https://speakerdeck.com/tokida/jin-dokifalselinuxshi-qing)
 
 ![どきのLinux事情](./img/f7fce9d0-4299-4a6f-99ec-ce04e6ccc5ef.PNG)
 
+ディレクトリ説明
 >[【Linux】初学者が知っておきたい、アレとか、コレとか……](https://qiita.com/YSWEngineer/items/52370b37486f5907fc87#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA)
 
 | ディレクトリ | 役割 |
