@@ -124,3 +124,25 @@ Server Side Rendering(SSR)
 Static Site Generation(SSG)
 Incremental Static Regeneration(ISR)
 Server Side Component(SSC)
+
+[新・JavaScript文法（1）：モダンな書き方](https://qiita.com/azmnc/items/5ee92169a7bc4f6ba208#null%E5%90%88%E4%BD%93%E6%BC%94%E7%AE%97%E5%AD%90)
+
+## Null合体演算子（??）
+
+null または undefined の場合にデフォルト値を設定する演算子です：
+
+```javascript
+// 基本的な使い方
+const value1 = null ?? "デフォルト値";    // "デフォルト値"
+const value2 = 0 ?? "デフォルト値";       // 0
+const value3 = "" ?? "デフォルト値";      // ""
+
+// ??と||の違い
+// ||: falseとみなされる値（0, "", false, null, undefined）の場合にデフォルト値を返す
+console.log(0 || "デフォルト値");      // "デフォルト値"
+console.log("" || "デフォルト値");     // "デフォルト値"
+
+// ??: null または undefined の場合のみデフォルト値を返す
+console.log(0 ?? "デフォルト値");      // 0
+console.log("" ?? "デフォルト値");     // ""
+```
